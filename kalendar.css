@@ -37,10 +37,20 @@ label{
 }
 table{
     border: black 6px solid;
+    width:100%;
+    height: max-content;
+
 }
 td{
     border:solid 6px lightgreen;
     width:350px;
-    height: 150px;
+    height: 500px;
     font-size: 70px;
+}
+th{
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+    border-bottom: 3px solid black;;
+    height: 90px;
+    font-size: xx-large;
 }
