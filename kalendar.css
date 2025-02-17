@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(225, 232, 16);
+}
+
+.input{
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    padding: 45px;
+    border-color:'black solid 5px';
+    background-color: aqua;
+    width: 200px;
+    height: 80px;
+    size: '50px';
+    border-radius: 25%;
+    box-shadow: 10px 6px grey;
+}
+.input:hover{
+    cursor:pointer
+}
+label{
+    font-size: xx-large;
+}
+#button{
+    background-color: rgb(208, 158, 10);
+    position:absolution;
+    width:240px;
+    padding:30px;
+    margin:25px;
+    font-size: xx-large;
+    border-top: brown 15px solid;
+    border-radius: 15px;
+    box-shadow: 10px 6px grey;
+}
+#button:hover{
+    cursor: pointer;
+}
+table{
+    border: black 6px solid;
+}
+td{
+    border:solid 6px lightgreen;
+    width:350px;
+    height: 150px;
+    font-size: 70px;
+}
