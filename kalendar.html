@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <title>Kalendar</title>
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1'> -->
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+<div>
+
+    <label for="nomth" style = "padding: 20px;" >Месец</label>
+    <input type="text" name="month" placeholder="January"style="padding: 20px;"/>
+
+    <label for="start-day" style="padding: 20px;"> От кой ден започва </label>
+    <input type="number" name="start-day" value="7" style="padding: 20px;"/>
+     
+</div>
+    <div id="show-kalendar"></div>
+    <script type="module">
+        import {getDate} from './kalendar.js'
+        getDate()
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
